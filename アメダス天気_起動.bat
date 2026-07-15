@@ -1,10 +1,10 @@
 @echo off
 chcp 65001 >nul
 cd /d "%~dp0"
-title weather newShun - AMeDAS mini dashboard
+title MINaDAS - AMeDAS mini dashboard
 
 echo ==================================================
-echo    weather newShun  ( AMeDAS mini dashboard )
+echo    MINaDAS  ( AMeDAS mini dashboard )
 echo ==================================================
 echo.
 

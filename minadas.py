@@ -1,5 +1,5 @@
 """
-weather newShun — アメダス ミニお天気ダッシュボード
+MINaDAS — アメダス ミニお天気ダッシュボード
 =====================================================
 気象庁アメダスの公開データを使った、自分のエリア向けの簡易ダッシュボード。
 
@@ -214,7 +214,7 @@ def render_rain_map(lat: float, lon: float, name: str, basetime: str, validtime:
 
 # ----------------- アプリ本体 ----------------- #
 
-st.set_page_config(page_title="weather newShun", page_icon="🌤", layout="wide")
+st.set_page_config(page_title="MINaDAS", page_icon="🌤", layout="wide")
 
 # 観測所一覧
 try:
@@ -230,7 +230,7 @@ if "code" not in st.session_state:
     st.session_state.code = HOME_STATION_CODE if HOME_STATION_CODE in stations else codes_sorted[0]
 
 # ---- ヘッダー ---- #
-st.title("🌤 weather newShun")
+st.title("🌤 MINaDAS")
 st.caption("気象庁アメダスの観測データによる、あなたのエリアのミニお天気ダッシュボード")
 
 # ---- 観測所の選択・更新・ホーム ---- #
