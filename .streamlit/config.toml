@@ -1,0 +1,10 @@
+[theme]
+base = "light"
+primaryColor = "#0ea5e9"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# 起動時にブラウザを自動で開く
+headless = false
